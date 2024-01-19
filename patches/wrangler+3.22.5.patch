@@ -1,0 +1,68 @@
+diff --git a/node_modules/wrangler/wrangler-dist/cli.js b/node_modules/wrangler/wrangler-dist/cli.js
+index 999190f..be7c763 100644
+--- a/node_modules/wrangler/wrangler-dist/cli.js
++++ b/node_modules/wrangler/wrangler-dist/cli.js
+@@ -124843,6 +124843,63 @@ async function bundleWorker(entry, destination, {
+       ...loader || {}
+     },
+     plugins: [
++			{
++				name: "jsr",
++				setup(build) {
++					const path = require("node:path");
++					const fs = require("node:fs/promises");
++
++					const JSR_DIR = path.join(process.cwd(), "jsr.io");
++
++					const JSR_REG = /^jsr:\/?(@[^/]+)\/([^/@]+)(@([^/]+))?(.*)?$/
++					build.onResolve({filter: /^jsr:.*/}, async args => {
++						const match = args.path.match(JSR_REG);
++						if (match === null) return undefined;
++
++						let [_, scope, name,_2, version, entry] = match;
++
++						let pkgDir = path.join(JSR_DIR, scope, name)
++	
++						const rawMeta = await fs.readFile(path.join(pkgDir, "meta.json"), "utf-8");
++						const meta = JSON.parse(rawMeta);
++
++						if (version !== undefined) {
++							// TODO: Ignore range specifiers for now
++							version = version.startsWith("^")
++								? version.slice(1)
++								: version
++						} else {
++							const versions = Object.keys(meta.versions);
++							for (let i = 0; i < versions.length; i++) {
++								const v = versions[i]
++								if (!meta.versions[v].yanked) {
++									version = v;
++								}
++							}
++						}
++
++						pkgDir = path.join(pkgDir, version)
++
++						let resolvedEntry = ""
++						
++						const modExports = meta.versions[version].exports;
++						if (entry === undefined) {
++							resolvedEntry = modExports["."];
++						} else if (`.${entry}` in modExports) {
++							resolvedEntry = modExports[`.${entry}`];
++						} else {
++							throw new Error(`Unknown entry: ${entry} for package ${scope}/${name}. Valid entries are ${Object.keys(modexports)}.`)
++						}
++
++						const resolvedFile = path.join(pkgDir, resolvedEntry)
++
++						console.log(args.path, "->", resolvedFile)
++						return {
++							path: resolvedFile
++						}
++					})
++				}
++			},
+       moduleCollector.plugin,
+       ...legacyNodeCompat ? [(0, import_node_globals_polyfill.default)({ buffer: true }), (0, import_node_modules_polyfill.default)()] : [],
+       ...nodejsCompat ? [nodejsCompatPlugin] : [],

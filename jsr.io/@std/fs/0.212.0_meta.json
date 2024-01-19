@@ -1,0 +1,2100 @@
+{
+  "manifest": {
+    "/testdata/walk/match/z": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/ensure_link_test.ts": {
+      "size": 5292,
+      "checksum": "sha256-2a7ca25c14869dc18365d462b3dcdd6fadf12a7b55bb31cc1f4a8f29ecbec24d"
+    },
+    "/ensure_dir.ts": {
+      "size": 2474,
+      "checksum": "sha256-a6c127285f5bdfe10e6ff5b55ff7f9b5c7f67c74d3dcfe66081c5780a5e1ee85"
+    },
+    "/ensure_link.ts": {
+      "size": 1406,
+      "checksum": "sha256-b8e1d11720b6c430eb84d24579ad772e83bdf498b3d97244828abdbde0e4d628"
+    },
+    "/testdata/walk/ext/x.ts": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/exists.ts": {
+      "size": 5899,
+      "checksum": "sha256-e636a0e535793d8677095e7a75308eda47cc4c784f83c4e2beaa90825a5b84de"
+    },
+    "/testdata/glob/abcdef": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/fifo/.gitignore": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/symlink/a/z": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/eol_test.ts": {
+      "size": 1650,
+      "checksum": "sha256-92a41f64bd7cf8ee65afc7dad8cb4dbe79367e2f97aba279100a72618044bfc7"
+    },
+    "/testdata/empty_dir.ts": {
+      "size": 239,
+      "checksum": "sha256-bc67a1e59bd74770efaa6711ea68b374ff7a9af80f19c0ee9ca30471697c78a8"
+    },
+    "/testdata/walk/socket/.gitignore": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/symlink/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/_is_subdir.ts": {
+      "size": 734,
+      "checksum": "sha256-3802c26c8e5f81c00452c0a32e71ee06f4bce82ade3691da170de1788a53e79f"
+    },
+    "/walk_test.ts": {
+      "size": 7801,
+      "checksum": "sha256-cb1f6bfe82b027e1011c4e9e2922ace14d9b87207d4fdb05d47d6c34f08987ad"
+    },
+    "/exists_test.ts": {
+      "size": 10764,
+      "checksum": "sha256-00d8c30c2dd46c4a9abe7d0848f49e0fc8d3449d0686f9914f635cb2215b0613"
+    },
+    "/testdata/copy_file.txt": {
+      "size": 3,
+      "checksum": "sha256-486b9a6fc855abf48847e9639f3c090855c6aafdc22a13b10e3244c37f03d3e0"
+    },
+    "/_is_subdir_test.ts": {
+      "size": 1204,
+      "checksum": "sha256-088c249569d3bccb320d44296297255499992ed4f879b05d51cf9a1aac5b728d"
+    },
+    "/testdata/walk/ext/y.rs": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/ext/z.py": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/expand_glob.ts": {
+      "size": 9559,
+      "checksum": "sha256-867940022115d35961616b241ef9f272a17713ea49bfb977d52b0805b753201a"
+    },
+    "/_to_path_string.ts": {
+      "size": 426,
+      "checksum": "sha256-d5235c72f236d794d566ade73ff1ab346f2c9c73aba74500ec3a0b6874ac7c71"
+    },
+    "/testdata/glob/a[b]c/foo": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/move.ts": {
+      "size": 2628,
+      "checksum": "sha256-8301ee1883b3d5e0eda7c5b670e7fe5ca9ac98fe74258551ec513d222c1af85f"
+    },
+    "/testdata/glob/subdir/abc": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/copy.ts": {
+      "size": 9607,
+      "checksum": "sha256-8a45bdad052b0ac0a6b7d0ed32f82c2e4629a66986e060b91ad03ef9164f72bb"
+    },
+    "/testdata/glob/abc": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/expand_glob_test.ts": {
+      "size": 10591,
+      "checksum": "sha256-2d7404d9f364455e60de7afbac4bd39a3f140b62c46ddd72ca61ac7577474658"
+    },
+    "/empty_dir_test.ts": {
+      "size": 6454,
+      "checksum": "sha256-c4b411c2ec7bc45e372879c21a6e16b97084633bcb0e55a60bfd275a07f4f6be"
+    },
+    "/ensure_dir_test.ts": {
+      "size": 3843,
+      "checksum": "sha256-1d7b6a58b6d85c8682444b68cb4c7949e606d79e6ee693e2b0e6f8e314fed9cb"
+    },
+    "/testdata/walk/single_file/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/test.ts": {
+      "size": 94,
+      "checksum": "sha256-f2a169ccdffc8f01f277e3d4d71f9003f011c6404cebe85ee66e8339cdf4f641"
+    },
+    "/mod.ts": {
+      "size": 483,
+      "checksum": "sha256-107f5afa4424c2d3ce2f7e9266173198da30302c69af662c720115fe504dc5ee"
+    },
+    "/testdata/copy_dir/nest/0.txt": {
+      "size": 4,
+      "checksum": "sha256-75ef2e329bdb50d26a4ce73c2aaa567364e4ac5b5f79f7cf6d64b4cd547a863c"
+    },
+    "/_is_same_path.ts": {
+      "size": 558,
+      "checksum": "sha256-b383e614d8ba7fe9825bf89c9f63ff254315d6e629e0d49da7e33526840fdd28"
+    },
+    "/testdata/walk/match/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/ensure_symlink_test.ts": {
+      "size": 5808,
+      "checksum": "sha256-2987f725f773550f04d472d9ef270e522b496ed053062e1544274810479a12b3"
+    },
+    "/copy_test.ts": {
+      "size": 13718,
+      "checksum": "sha256-898a25eba608b344f3463148efb446cc838b9f54db8a2c8580696ca1250dc8b1"
+    },
+    "/testdata/copy_dir/0.txt": {
+      "size": 4,
+      "checksum": "sha256-982d9e3eb996f559e633f4d194def3761d909f5a3b647d1a851fead67c32c9d1"
+    },
+    "/walk.ts": {
+      "size": 7159,
+      "checksum": "sha256-c703085e7036b098d2cd37258f7ebbe232536ff6ffd6609403ac7f9ee93e143c"
+    },
+    "/_is_same_path_test.ts": {
+      "size": 1715,
+      "checksum": "sha256-f3ac16e75ca033b1d2a4237fb46eec4c2db15a9d2a39f039de2ecd54f6016d48"
+    },
+    "/testdata/walk/nested_single_file/a/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/walk/depth/a/b/c/d/x": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/_create_walk_entry.ts": {
+      "size": 1318,
+      "checksum": "sha256-d4bc527eba13b8f0364c7d6276a343ab4d3e0357355e5b612e444234d2238b02"
+    },
+    "/testdata/walk/match/y": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/testdata/expand_wildcard.js": {
+      "size": 184,
+      "checksum": "sha256-0c7218109d09eaae9fed479d5072440c7d6ba736fdcb23e34117f4828c821b3e"
+    },
+    "/testdata/empty_dir_sync.ts": {
+      "size": 291,
+      "checksum": "sha256-eb6a2b7b70b4c5741e37ca0a3c29a0d9952be8881a9bb69c6f0d587afba545a3"
+    },
+    "/empty_dir.ts": {
+      "size": 2004,
+      "checksum": "sha256-9e7c8ed545c155ccfe3abfc60f3a3e34454e494cb6a4ae9b6018d235756f6fb7"
+    },
+    "/ensure_file.ts": {
+      "size": 2265,
+      "checksum": "sha256-a205bc7865177fd5cc95dc4ed20c279a5c0c78a5eb2b3612824655ec6f5d61dd"
+    },
+    "/testdata/0.ts": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "/deno.json": {
+      "size": 471,
+      "checksum": "sha256-7229f7cdd03c384d67096e8423f46559c77c760d1981fc54f84a20aff34dec33"
+    },
+    "/eol.ts": {
+      "size": 1672,
+      "checksum": "sha256-d560d5e3cc3a1acff483f1339d7de31ca6025808b2c499a8b246984b84282e0b"
+    },
+    "/_get_file_info_type_test.ts": {
+      "size": 1230,
+      "checksum": "sha256-3b539d1ffbc4b3e825ab7fa3cb93404b7326693446e338ac1f7f6144d93e11cb"
+    },
+    "/move_test.ts": {
+      "size": 14420,
+      "checksum": "sha256-4ec7847515f04cbf62764e30d1ce92e23e085db2e70c9d873662dcc1cb18ab1f"
+    },
+    "/ensure_file_test.ts": {
+      "size": 5924,
+      "checksum": "sha256-0aa83c8a74b603bf7e106e1a59f2d70446690f4621795bce84aad30039273008"
+    },
+    "/ensure_symlink.ts": {
+      "size": 2415,
+      "checksum": "sha256-ecbd72a86a898611c2e0cddb6f2b9d6009924e97014031e0dfaaab5a42801864"
+    },
+    "/_get_file_info_type.ts": {
+      "size": 550,
+      "checksum": "sha256-da7bec18a7661dba360a1db475b826b18977582ce6fc9b25f3d4ee0403fe8cbd"
+    },
+    "/testdata/glob/abcdefghi": {
+      "size": 0,
+      "checksum": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "moduleGraph1": {
+    "/_is_subdir.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            },
+            {
+              "text": " Copyright the Browserify authors. MIT License.",
+              "range": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  49
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              56
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/separator",
+          "specifierRange": [
+            [
+              3,
+              20
+            ],
+            [
+              3,
+              55
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              4,
+              29
+            ],
+            [
+              4,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/ensure_file.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              58
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/dirname",
+          "specifierRange": [
+            [
+              1,
+              24
+            ],
+            [
+              1,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              59
+            ]
+          ],
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              2,
+              41
+            ],
+            [
+              2,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              59
+            ]
+          ],
+          "specifier": "./_get_file_info_type.ts",
+          "specifierRange": [
+            [
+              3,
+              32
+            ],
+            [
+              3,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              4,
+              29
+            ],
+            [
+              4,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/exists.ts": {},
+    "/move.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              43
+            ]
+          ],
+          "specifier": "./_is_subdir.ts",
+          "specifierRange": [
+            [
+              1,
+              25
+            ],
+            [
+              1,
+              42
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              48
+            ]
+          ],
+          "specifier": "./_is_same_path.ts",
+          "specifierRange": [
+            [
+              2,
+              27
+            ],
+            [
+              2,
+              47
+            ]
+          ]
+        }
+      ]
+    },
+    "/ensure_dir.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              59
+            ]
+          ],
+          "specifier": "./_get_file_info_type.ts",
+          "specifierRange": [
+            [
+              1,
+              32
+            ],
+            [
+              1,
+              58
+            ]
+          ]
+        }
+      ]
+    },
+    "/_is_same_path.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            },
+            {
+              "text": " Copyright the Browserify authors. MIT License.",
+              "range": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  49
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              58
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/resolve",
+          "specifierRange": [
+            [
+              3,
+              24
+            ],
+            [
+              3,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              4,
+              29
+            ],
+            [
+              4,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/expand_glob.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              59
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/glob",
+          "specifierRange": [
+            [
+              1,
+              28
+            ],
+            [
+              1,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              70
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/glob_to_regexp",
+          "specifierRange": [
+            [
+              2,
+              29
+            ],
+            [
+              2,
+              69
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              63
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/join_globs",
+          "specifierRange": [
+            [
+              3,
+              26
+            ],
+            [
+              3,
+              62
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              57
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/is_glob",
+          "specifierRange": [
+            [
+              4,
+              23
+            ],
+            [
+              4,
+              56
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              65
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/is_absolute",
+          "specifierRange": [
+            [
+              5,
+              27
+            ],
+            [
+              5,
+              64
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              58
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/resolve",
+          "specifierRange": [
+            [
+              6,
+              24
+            ],
+            [
+              6,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              64
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/separator",
+          "specifierRange": [
+            [
+              7,
+              28
+            ],
+            [
+              7,
+              63
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              43
+            ]
+          ],
+          "specifier": "./walk.ts",
+          "specifierRange": [
+            [
+              8,
+              31
+            ],
+            [
+              8,
+              42
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              58
+            ]
+          ],
+          "specifier": "jsr:/@std/assert@^0.212.0/assert",
+          "specifierRange": [
+            [
+              9,
+              23
+            ],
+            [
+              9,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              10,
+              0
+            ],
+            [
+              10,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              10,
+              29
+            ],
+            [
+              10,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              11,
+              0
+            ],
+            [
+              15,
+              33
+            ]
+          ],
+          "specifier": "./_create_walk_entry.ts",
+          "specifierRange": [
+            [
+              15,
+              7
+            ],
+            [
+              15,
+              32
+            ]
+          ]
+        }
+      ]
+    },
+    "/empty_dir.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              52
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/join",
+          "specifierRange": [
+            [
+              1,
+              21
+            ],
+            [
+              1,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              2,
+              29
+            ],
+            [
+              2,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/_to_path_string.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            },
+            {
+              "text": " Copyright the Browserify authors. MIT License.",
+              "range": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  49
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              68
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/from_file_url",
+          "specifierRange": [
+            [
+              3,
+              28
+            ],
+            [
+              3,
+              67
+            ]
+          ]
+        }
+      ]
+    },
+    "/walk.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            },
+            {
+              "text": " Documentation and interface for walk were adapted from Go",
+              "range": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  60
+                ]
+              ]
+            },
+            {
+              "text": " https://golang.org/pkg/path/filepath/#Walk",
+              "range": [
+                [
+                  2,
+                  0
+                ],
+                [
+                  2,
+                  45
+                ]
+              ]
+            },
+            {
+              "text": " Copyright 2009 The Go Authors. All rights reserved. BSD license.",
+              "range": [
+                [
+                  3,
+                  0
+                ],
+                [
+                  3,
+                  67
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              52
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/join",
+          "specifierRange": [
+            [
+              4,
+              21
+            ],
+            [
+              4,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              62
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/normalize",
+          "specifierRange": [
+            [
+              5,
+              26
+            ],
+            [
+              5,
+              61
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              6,
+              29
+            ],
+            [
+              6,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              7,
+              0
+            ],
+            [
+              11,
+              33
+            ]
+          ],
+          "specifier": "./_create_walk_entry.ts",
+          "specifierRange": [
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              32
+            ]
+          ]
+        }
+      ]
+    },
+    "/copy.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              60
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/basename",
+          "specifierRange": [
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              59
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              52
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/join",
+          "specifierRange": [
+            [
+              3,
+              21
+            ],
+            [
+              3,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              58
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/resolve",
+          "specifierRange": [
+            [
+              4,
+              24
+            ],
+            [
+              4,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              59
+            ]
+          ],
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              5,
+              41
+            ],
+            [
+              5,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              58
+            ]
+          ],
+          "specifier": "jsr:/@std/assert@^0.212.0/assert",
+          "specifierRange": [
+            [
+              6,
+              23
+            ],
+            [
+              6,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              59
+            ]
+          ],
+          "specifier": "./_get_file_info_type.ts",
+          "specifierRange": [
+            [
+              7,
+              32
+            ],
+            [
+              7,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              8,
+              29
+            ],
+            [
+              8,
+              51
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              43
+            ]
+          ],
+          "specifier": "./_is_subdir.ts",
+          "specifierRange": [
+            [
+              9,
+              25
+            ],
+            [
+              9,
+              42
+            ]
+          ]
+        }
+      ]
+    },
+    "/ensure_symlink.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              58
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/dirname",
+          "specifierRange": [
+            [
+              1,
+              24
+            ],
+            [
+              1,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              58
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/resolve",
+          "specifierRange": [
+            [
+              2,
+              24
+            ],
+            [
+              2,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              59
+            ]
+          ],
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              3,
+              41
+            ],
+            [
+              3,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              59
+            ]
+          ],
+          "specifier": "./_get_file_info_type.ts",
+          "specifierRange": [
+            [
+              4,
+              32
+            ],
+            [
+              4,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              5,
+              29
+            ],
+            [
+              5,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/mod.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "export",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            },
+            {
+              "text": "*\n * Helpers for working with the filesystem.\n *\n * @module\n ",
+              "range": [
+                [
+                  2,
+                  0
+                ],
+                [
+                  6,
+                  3
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              31
+            ]
+          ],
+          "specifier": "./empty_dir.ts",
+          "specifierRange": [
+            [
+              8,
+              14
+            ],
+            [
+              8,
+              30
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              32
+            ]
+          ],
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              9,
+              14
+            ],
+            [
+              9,
+              31
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              10,
+              0
+            ],
+            [
+              10,
+              33
+            ]
+          ],
+          "specifier": "./ensure_file.ts",
+          "specifierRange": [
+            [
+              10,
+              14
+            ],
+            [
+              10,
+              32
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              11,
+              0
+            ],
+            [
+              11,
+              33
+            ]
+          ],
+          "specifier": "./ensure_link.ts",
+          "specifierRange": [
+            [
+              11,
+              14
+            ],
+            [
+              11,
+              32
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              12,
+              0
+            ],
+            [
+              12,
+              36
+            ]
+          ],
+          "specifier": "./ensure_symlink.ts",
+          "specifierRange": [
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              35
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              13,
+              0
+            ],
+            [
+              13,
+              28
+            ]
+          ],
+          "specifier": "./exists.ts",
+          "specifierRange": [
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              27
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              14,
+              0
+            ],
+            [
+              14,
+              33
+            ]
+          ],
+          "specifier": "./expand_glob.ts",
+          "specifierRange": [
+            [
+              14,
+              14
+            ],
+            [
+              14,
+              32
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              15,
+              0
+            ],
+            [
+              15,
+              26
+            ]
+          ],
+          "specifier": "./move.ts",
+          "specifierRange": [
+            [
+              15,
+              14
+            ],
+            [
+              15,
+              25
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              16,
+              0
+            ],
+            [
+              16,
+              26
+            ]
+          ],
+          "specifier": "./copy.ts",
+          "specifierRange": [
+            [
+              16,
+              14
+            ],
+            [
+              16,
+              25
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              17,
+              0
+            ],
+            [
+              17,
+              26
+            ]
+          ],
+          "specifier": "./walk.ts",
+          "specifierRange": [
+            [
+              17,
+              14
+            ],
+            [
+              17,
+              25
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "range": [
+            [
+              18,
+              0
+            ],
+            [
+              18,
+              25
+            ]
+          ],
+          "specifier": "./eol.ts",
+          "specifierRange": [
+            [
+              18,
+              14
+            ],
+            [
+              18,
+              24
+            ]
+          ]
+        }
+      ]
+    },
+    "/ensure_link.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              58
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/dirname",
+          "specifierRange": [
+            [
+              1,
+              24
+            ],
+            [
+              1,
+              57
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              59
+            ]
+          ],
+          "specifier": "./ensure_dir.ts",
+          "specifierRange": [
+            [
+              2,
+              41
+            ],
+            [
+              2,
+              58
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              3,
+              29
+            ],
+            [
+              3,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/_create_walk_entry.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "leadingComments": [
+            {
+              "text": " Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.",
+              "range": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  74
+                ]
+              ]
+            },
+            {
+              "text": " Copyright the Browserify authors. MIT License.",
+              "range": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  49
+                ]
+              ]
+            }
+          ],
+          "range": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              60
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/basename",
+          "specifierRange": [
+            [
+              3,
+              25
+            ],
+            [
+              3,
+              59
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              62
+            ]
+          ],
+          "specifier": "jsr:/@std/path@^0.212.0/normalize",
+          "specifierRange": [
+            [
+              4,
+              26
+            ],
+            [
+              4,
+              61
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "range": [
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              52
+            ]
+          ],
+          "specifier": "./_to_path_string.ts",
+          "specifierRange": [
+            [
+              5,
+              29
+            ],
+            [
+              5,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    "/_get_file_info_type.ts": {},
+    "/eol.ts": {}
+  },
+  "exports": {
+    ".": "./mod.ts",
+    "./copy": "./copy.ts",
+    "./empty_dir": "./empty_dir.ts",
+    "./ensure_dir": "./ensure_dir.ts",
+    "./ensure_file": "./ensure_file.ts",
+    "./ensure_link": "./ensure_link.ts",
+    "./ensure_symlink": "./ensure_symlink.ts",
+    "./eol": "./eol.ts",
+    "./exists": "./exists.ts",
+    "./expand_glob": "./expand_glob.ts",
+    "./move": "./move.ts",
+    "./walk": "./walk.ts"
+  }
+}

@@ -5,10 +5,12 @@
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "start": "wrangler dev",
+    "postinstall": "patch-package"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240117.0",
+    "patch-package": "^8.0.0",
     "typescript": "^5.0.4",
     "wrangler": "^3.0.0"
   }

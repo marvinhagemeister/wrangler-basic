@@ -1,0 +1,30 @@
+{
+  "scope": "std",
+  "name": "log",
+  "versions": {
+    "0.210.0": {
+      "yanked": false,
+      "exports": {
+        ".": "./mod.ts",
+        "./levels": "./levels.ts",
+        "./logger": "./logger.ts",
+        "./handlers": "./handlers.ts",
+        "./formatters": "./formatters.ts"
+      }
+    },
+    "0.212.0": {
+      "yanked": false,
+      "exports": {
+        ".": "./mod.ts",
+        "./levels": "./levels.ts",
+        "./logger": "./logger.ts",
+        "./handlers": "./handlers.ts",
+        "./formatters": "./formatters.ts",
+        "./base_handler": "./base_handler.ts",
+        "./file_handler": "./file_handler.ts",
+        "./console_handler": "./console_handler.ts",
+        "./rotating_file_handler": "./rotating_file_handler.ts"
+      }
+    }
+  }
+}
